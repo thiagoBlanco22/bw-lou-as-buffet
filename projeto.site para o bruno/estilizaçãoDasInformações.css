@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;  
+} 
+
+
+
+body {
+    background-image: url(/pexels-naim-benjelloun-2291367\ \(2\)\ bruno\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh; 
+    
+}
+ 
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+#div-conteiner{
+    height: 100vh;
+    width: 800px;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.734);
+} 
+
+.cabeçalho {
+    height: 4rem;
+    /* border: 1px solid red; */
+}
+
+.cabeçalho h1 {
+    font-size: 1.20rem;
+    color: #fff;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cabeçalho h1 img {
+    border-radius: 50%;
+    height: 56px;
+    /* border: 1px solid red; */
+    margin-right: 10px;
+}
+
+/* .cabeçalho .button {
+    background-color: rgb(232, 151, 10);
+    transition: all 1s;
+    border-radius: 5px;
+    border: none;
+}
+
+.cabeçalho .button .botao_voltar {
+    display: block;
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+}
+
+.cabeçalho .button:hover {
+    background-color: #ffffff32;
+    transition: all  1s;
+} */
+
+.conteiner_imagem{
+    width: 100%;
+    height: 450px;
+    overflow-y: hidden;
+    border-radius: 5px;
+}
+
+.conteiner_imagem img {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.botao_fazer_pedido {
+    margin: 0 30px 0 30px;
+    height: 4.20rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.50rem;
+    margin-bottom: 0.50rem;
+}
+
+.botao_fazer_pedido button  {
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgb(232, 151, 10);
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 1s;
+}
+
+.botao_fazer_pedido button a {
+    color: #fff;
+    text-align: center;
+    font-size: 0.90rem;
+    font-weight: 900;
+}
+
+.botao_fazer_pedido button:hover {
+    background-color: #ffffff32;
+    transition: all  1s;
+}
+
+
+
+.div_informaçoes_produto {   
+    padding-bottom: 4rem;
+    
+}
+
+.div_informaçoes_produto h2 {
+    color: #ffffff;
+    height: auto;
+    margin: 1rem 0 1rem 1rem;
+    font-weight: 900;
+    font-size: 1.70rem;
+} 
+
+.div_informaçoes_produto p {
+    color: #e3dddd;
+    font-size: 1.50rem;
+    margin: 1rem;
+    max-width: 800px;
+    font-weight: 600;
+}
+
+
+ @media screen and (min-width: 500px) {
+    .cabeçalho {
+        justify-content: space-between;
+    }
+
+    .cabeçalho .button {
+        margin-right: 20px;
+        
+    }
+
+    .cabeçalho h1 {
+        
+        font-size: 2rem;
+    }
+     
+} 
+
+

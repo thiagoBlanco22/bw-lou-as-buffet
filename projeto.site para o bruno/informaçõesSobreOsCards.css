@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#ALUGUEL_DE_LOUÇAS {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    height: 100vh;
+    border: 2px solid red;
+    gap: 3rem;
+    margin: 0 25px 0 25px;
+}
+
+
+.div_card {
+    width: 380px;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 1px #00000f57, 8px 8px 16px 2px #00000f57;
+    transition: all 1s;
+    margin: 30px 0 0 0;
+}
+
+.div_card:hover {
+    box-shadow: 0 0 16px 2px #00000f64, 17px 17px 32px 4px #00000f64;
+    transition: all 1s;
+} 
+
+
+.div_card img {
+    width: 100%;
+    height: 60%;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.div_card div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 40%;
+    gap: 0.90rem;
+    
+}
+
+.div_card h1 {
+    font-size: 1.45rem;
+    text-align: center;
+}
+
+.div_card span {
+    font-size: 1.20rem;
+    text-align: center;
+}
+
+
+
+/* 
+.div_card button {
+   width: 100%;
+   height: 66px;
+   background-color: black;
+   border-radius: 0 0 15px 15px ;
+   border: none;
+}
+
+.div_card button a {
+    display: block;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #fff;
+    transition: all 1s;
+}
+
+.div_card button a:hover {
+    transform: translateX(1.50rem);
+    transition: all  1s;
+} */
+
+#card-mechidão  button {
+    margin-top: 0px;
+}
+
+#card-churrasco2 button {
+    margin-top: px;
+}
+

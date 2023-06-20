@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+ 
+
+html {
+    overflow-x: hidden;
+}
+
+/*navegação*/
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid rgb(39, 37, 37); */
+    background: rgba(255, 255, 255, 0.761);
+    position: fixed; 
+    z-index: 10;
+}
+
+
+.header .logo {
+    color: rgb(47, 36, 36);
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+.header .logo h1 {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.50rem;
+    font-weight: 900;
+}
+
+.header .logo h1 img {
+    border-radius: 50%;
+    height: 56px;
+    margin-right: 5px;
+}
+
+
+
+.header .navegação {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* border: 1px solid rgb(38, 0, 255);  */
+}
+
+.header .navegação ul {
+    /* border: 5px solid rgb(93, 0, 255); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header .navegação li a {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: rgb(47, 36, 36);
+    transition: all 1s;
+}
+
+.header .navegação li a:hover {
+    opacity: 0.3;
+}
+
+
+
+/*seção*/
+
+.section {
+    background-image: linear-gradient( rgba(45, 38, 38, 0.278), rgba(51, 35, 35, 0.278)), url(/pexels-naim-benjelloun-2291367\ \(2\)\ bruno\ \(1\).jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 625px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section .section-box {
+    max-width: 700px;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section .section-box h2 {
+    font-weight: 900;
+    font-size: 2.8rem;
+    color: white;
+}
+
+.section .section-box p {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: white;
+    margin-right: 20px;
+    /* border: 1px solid ; */
+    padding-left: 5px;
+}
+
+
+/* .div-icon ion-icon {
+    padding: 10px;
+    font-size: 40px;
+   
+}  */
+
+
+
+/* seção serviços*/
+
+.section_BUFFET_E_LOUÇA {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 3rem;
+    margin: 0 25px 50px 25px;
+}
+
+
+.div_card {
+    width: 380px;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 1px #00000f57, 8px 8px 16px 2px #00000f57;
+    transition: all 1s;
+    margin: 30px 0 0 0;
+}
+
+.div_card:hover {
+    box-shadow: 0 0 16px 2px #00000f64, 17px 17px 32px 4px #00000f64;
+    transition: all 1s;
+} 
+
+
+.div_card img {
+    width: 100%;
+    height: 60%;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.div_card .div_informaçoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 40%;
+    gap: 0.90rem;
+}
+
+.div_card .div_informaçoes h3 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.div_card .div_informaçoes span {
+    font-size: 1.20rem;
+    text-align: center;
+}
+
+.div_informaçoes button {
+    width: 100%;
+    height: 66px;
+    border-radius: 0 0 15px 15px;
+    background-color: black;
+}
+
+.div_informaçoes button a {
+    display: block;
+}
+
+.div_informaçoes button a .svg-flecha {
+    width: 50px;
+    height: 50px;  
+    transition: all 1s;
+}
+
+.div_informaçoes button a:hover  .svg-flecha{
+    transform: translateX(1.50rem);
+    transition: all  1s;
+}
+
+
+
+
+
+
+/* .div_card button {
+   width: 100%;
+   height: 66px;
+   background-color: black;
+   border-radius: 0 0 15px 15px ;
+   border: none;
+}
+
+.div_card button a {
+    display: block;
+    border: 1px solid red;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #fff;
+    transition: all 1s;
+}
+
+.div_card button a:hover {
+    transform: translateX(1.50rem);
+    transition: all  1s;
+} */
+
+
+
+
+#card-serviço-garçons .div_informaçoes h3 {
+    white-space: nowrap;
+    letter-spacing: -1px;
+}
+
+#card-serviço-garçons span {
+    font-size:  1.20rem;
+}
+
+#card-infantil .div_informaçoes h3 {
+    white-space: nowrap;
+    letter-spacing: -1px;
+} 
+
+#card-infantil span {
+    font-size:  1.18rem;
+    letter-spacing: -1px;
+} 
+
+
+
+
+/* footer content*/
+
+footer {
+    width: 100%;
+    color: #f5f5f5;
+    margin-top: 50px;
+}
+
+#logo-bruno {
+    border-radius: 50%;
+    height: 4.50rem;
+    margin-bottom: 0.50rem;
+}
+
+#footer_content {
+    background-color: #171717;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3rem 3.5rem;
+   
+}
+
+
+#footer_contacts {
+    margin-bottom: 0.75rem;
+    
+}
+
+#footer_social_midia {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_midia .footer_link {
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_midia .footer_link i {
+    font-size: 1.25rem;
+}
+
+#footer_social_midia .footer_link:hover {
+    opacity: 0.3;
+}
+
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2997, #ff9807);
+}
+
+#facebook {
+    background: #4267b3;
+}
+
+#whatsapp {
+    background: #25d366;
+}
+
+#email {
+    background: rgb(72, 5, 255);
+}
+
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.footer_list .footer-link {
+    color: aliceblue;
+    transition: all 0.4s;
+}
+
+.footer_list .footer-link:hover {
+    opacity: 0.3;
+} 
+
+#footer_content #footer_Sobre {
+    display: flex;
+    flex-direction:  column;
+    gap: 1.5rem;    
+}
+
+#footer_Sobre p {
+    color: #ffffffc3;    
+    letter-spacing: -1px;
+    text-indent: 40px;
+    font-weight: 500;
+}
+
+#foote_copyriht {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    font-size: 0.9rem;
+    padding: 1rem;
+    font-weight: 100;
+}
+
+
+
+
+/*Responcivo*/
+
+
+@media screen and (max-width: 942px){  
+    .navegação a {
+        display: none;
+        
+    }
+
+    .header .logo {
+        width: 100%;
+        position: absolute;
+    }
+        
+    .icon-div {
+    flex-direction: column;
+    }
+
+    .section .section-box h2 {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .section .section-box p {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+        #footer_content {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 2rem;
+        }
+}  
+
+@media screen and (max-width: 426px) {
+        #footer_content {
+            grid-template-columns: repeat(1, 1fr);
+            padding: 3rem 2rem;
+        }
+}
+
+
+@media screen and (max-width: 395px){
+    .header .logo h1 {
+        font-size: 1.20rem;
+    }
+
+    .header .logo h1 img {
+        height: 35px;
+    }
+
+    .div_card {
+        margin-bottom: 30px;
+        height: 530px;
+    }
+
+    #card-serviço-garçons .div_informaçoes h3 {
+        white-space: pre-line;
+    }
+
+    #card-infantil .div_informaçoes h3 {
+        white-space: pre-wrap;
+        letter-spacing: -1px;
+    } 
+
+
+}    
+
+
